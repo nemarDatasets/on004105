@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004105-blue)](https://doi.org/10.82901/nemar.on004105)
+
 ### Introduction
 
 **Overview:** Subjects in the Auditory Cueing study performed a long-duration simulated driving task with
