@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004105",
-  "source": "openneuro",
-  "source_id": "ds004105",
+  "pipeline_stage": "validated",
   "title": "BCIT Auditory Cueing",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Javier Garcia (data)": {},
     "Justin Brooks (data)": {},
@@ -14,26 +14,88 @@
     "Jonathan Touryan (curation)": {},
     "Kay Robbins (curation)": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004105.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2017.02.057.",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2019.116361",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2019.116054",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004105",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004105",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2017.02.057",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
-      "funder_name": "This research was sponsored by the Army Research Laboratory and was accomplished under Cooperative Agreement Number W911NF-10-0-0002."
+      "funder_name": "Army Research Laboratory",
+      "award_number": "W911NF-10-0-0002"
     }
-  ]
+  ],
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".txt",
+    ".xlsx"
+  ],
+  "description": "The BCIT Auditory Cueing dataset comprises EEG, eye-tracking, and vehicle performance data collected during a prolonged simulated driving task designed to assess driver fatigue and cognitive state. Subjects performed two 45-minute driving conditions with either random or predictive auditory cues preceding lateral vehicle perturbations, while continuous measurements of steering behavior, reaction time, and neural activity were recorded. This dataset extends prior driving research by examining fatigue-related biomarkers through multimodal neurophysiological and behavioral monitoring in a controlled driving simulator environment.",
+  "methods_description": "EEG was recorded using a BioSemi 64-channel system (plus 8 additional channels including 4 eye and 2 mastoid channels) at 2048 Hz sampling rate. Eye tracking was performed using a Sensomotoric Instruments REDEYE250 system. Vehicle data were logged at 100 Hz from a Real Time Technologies driving simulator with 900 Hz video refresh rate. Subjects completed a calibration driving task followed by two counterbalanced auditory cueing conditions (A: random tone presentation; B: tone correlated with perturbation onset), each lasting 45 minutes. Lateral perturbations were applied to the vehicle, requiring corrective steering responses. Subjective fatigue was assessed using the Task-Induced Fatigue Scale, Karolinska Sleepiness Scale, and Visual Analog Scale of Fatigue.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "driver fatigue"
+    },
+    {
+      "term": "simulated driving"
+    },
+    {
+      "term": "auditory cueing"
+    },
+    {
+      "term": "eye tracking"
+    },
+    {
+      "term": "perturbation response"
+    },
+    {
+      "term": "reaction time"
+    }
+  ],
+  "source_hash": "749da23bfd360f64d5e0faf6ba215145435b7d04a3861f319f15bd94a42cb5c9"
 }
