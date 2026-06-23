@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BCIT Auditory Cueing",
+  "description": "The BCIT Auditory Cueing dataset comprises EEG, eye-tracking, and vehicle performance data collected during prolonged simulated driving tasks with auditory cues and lateral perturbations. Subjects performed two 45-minute driving conditions: one with randomly presented auditory tones and another with tones predictive of vehicle perturbations. The study was designed to identify driver fatigue biomarkers through analysis of EEG data in relation to objective performance measures and subjective fatigue scales.",
+  "methods_description": "Subjects performed simulated driving tasks using a Real Time Technologies driving simulator (900 Hz video refresh rate, 100 Hz vehicle data logging). EEG was recorded using BioSemi 64-channel systems with 4 eye and 2 mastoid channels at 2048 Hz sampling rate. Eye tracking was performed using Sensomotoric Instruments REDEYE250. The Auditory Cueing protocol consisted of two 45-minute driving conditions with lateral vehicle perturbations: Condition A with randomly presented auditory tones and Condition B with tones predictive of perturbation onset. Dependent measures included reaction times, vehicle control metrics (steering angle, lane position, heading error), and subjective fatigue scales (TIFS, KSS, VAS-F).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,12 +16,30 @@
     "Jonathan Touryan (curation)": {},
     "Kay Robbins (curation)": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004105.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "driver fatigue"
+    },
+    {
+      "term": "simulated driving"
+    },
+    {
+      "term": "auditory cueing"
+    },
+    {
+      "term": "eye tracking"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "vigilance"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1016/j.neuroimage.2017.02.057.",
       "identifier_type": "DOI",
@@ -49,6 +69,11 @@
       "identifier": "10.1016/j.neuroimage.2017.02.057",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004105.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -57,12 +82,12 @@
       "award_number": "W911NF-10-0-0002"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "21.9 GB (47 files)"
   ],
   "formats": [
     ".json",
@@ -70,32 +95,8 @@
     ".set",
     ".tsv",
     ".txt",
-    ".xlsx"
+    ".xlsx",
+    ".yml"
   ],
-  "description": "The BCIT Auditory Cueing dataset comprises EEG, eye-tracking, and vehicle performance data collected during a prolonged simulated driving task designed to assess driver fatigue and cognitive state. Subjects performed two 45-minute driving conditions with either random or predictive auditory cues preceding lateral vehicle perturbations, while continuous measurements of steering behavior, reaction time, and neural activity were recorded. This dataset extends prior driving research by examining fatigue-related biomarkers through multimodal neurophysiological and behavioral monitoring in a controlled driving simulator environment.",
-  "methods_description": "EEG was recorded using a BioSemi 64-channel system (plus 8 additional channels including 4 eye and 2 mastoid channels) at 2048 Hz sampling rate. Eye tracking was performed using a Sensomotoric Instruments REDEYE250 system. Vehicle data were logged at 100 Hz from a Real Time Technologies driving simulator with 900 Hz video refresh rate. Subjects completed a calibration driving task followed by two counterbalanced auditory cueing conditions (A: random tone presentation; B: tone correlated with perturbation onset), each lasting 45 minutes. Lateral perturbations were applied to the vehicle, requiring corrective steering responses. Subjective fatigue was assessed using the Task-Induced Fatigue Scale, Karolinska Sleepiness Scale, and Visual Analog Scale of Fatigue.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "driver fatigue"
-    },
-    {
-      "term": "simulated driving"
-    },
-    {
-      "term": "auditory cueing"
-    },
-    {
-      "term": "eye tracking"
-    },
-    {
-      "term": "perturbation response"
-    },
-    {
-      "term": "reaction time"
-    }
-  ],
-  "source_hash": "749da23bfd360f64d5e0faf6ba215145435b7d04a3861f319f15bd94a42cb5c9"
+  "source_hash": "a483a541925b1427afa8e25d7bf16102bc7e3cdf0f74d7f2ce03c01b8038e2fe"
 }
